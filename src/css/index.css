@@ -1,0 +1,25 @@
+.login {
+  color: #b7b7b7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding:1rem;
+  margin-top:1rem;
+}
+
+.geosuggest__suggests--hidden {
+  display:none;
+}
+
+.geosuggest__item {
+  margin:1rem;
+  padding: .5em .65em;
+  cursor: pointer;
+}
+
+.geosuggest__item:hover {
+  background: #ececec;
+}
+
+.geosuggest__suggests {
+  border: 2px solid #267dc0;
+}

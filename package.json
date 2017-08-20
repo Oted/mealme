@@ -1,11 +1,27 @@
 {
-  "name": "restaur",
+  "name": "mealme",
+  "proxy": "http://localhost:8000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bcrypt": "^1.0.2",
+    "dotenv": "^4.0.0",
+    "glue": "^4.2.0",
+    "hapi": "^16.5.0",
+    "hapi-auth-jwt2": "^7.3.0",
+    "inert": "^4.2.1",
+    "jsonwebtoken": "^7.4.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^4.11.5",
+    "mongoose-times": "^0.1.0",
+    "node-cache": "^4.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-geosuggest": "^2.3.6",
+    "react-scripts": "1.0.10",
+    "rxjs": "^5.4.2",
+    "uuid": "^3.1.0",
+    "ws": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
